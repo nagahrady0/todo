@@ -10,7 +10,7 @@ export const todoReducer = (state = initState, action )=>{
 	switch(action.type){
 		
 		case "addToDo":
-		const found = state.filter((el) => el.title == action.payload.title && el.description == action.payload.description );
+		const found = state.filter((el) => el.title === action.payload.title && el.description === action.payload.description );
 		console.log(found)
 			if(found.length> 0){
 				

@@ -9,7 +9,7 @@ const state = useSelector((state) => state) ;
 
 useEffect(()=>{
 
-	if(localStorage.getItem("todos") != null){
+	if(localStorage.getItem("todos") !== null){
 	
 	const arr = JSON.parse(localStorage.getItem("todos"));
 	
@@ -20,7 +20,7 @@ useEffect(()=>{
 	
 	}
 
-} , []);
+} );
 
 
 const items = state.map((el , index)=> (
@@ -56,7 +56,7 @@ console.log(items);
 				title : document.getElementById('title').value , 
 				description : document.getElementById('description').value ,
 				}
-				if(document.getElementById('title').value != "" && document.getElementById('description').value != ""){
+				if(document.getElementById('title').value !== "" && document.getElementById('description').value !== ""){
 				dispatch({type:"addToDo" , payload : objData});
 				}
 				document.getElementById('title').value  = "";

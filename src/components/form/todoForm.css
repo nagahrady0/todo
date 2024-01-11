@@ -64,9 +64,6 @@ text-transform:capitalize;
 background:#00E67C;
 }
 
-
-
-
 .data {
 width:100%;
 background:#404040;
@@ -102,11 +99,6 @@ color:red;
 }
 
 
-
-
-
-
-
 .clear{
 
 width:100%;
@@ -117,6 +109,22 @@ border-radius:5px;
 color:#fff;
 cursor:pointer;
 text-transform:capitalize;
+
+}
+
+@media only  screen and (max-width:767px){
+
+	.form{
+	width:90vw;
+	}
+	.input{
+	width:100%;
+	flex-direction:column;
+	}
+	#title , #description , button.add{
+	width:100%;
+	border-radius:5px;
+	}
 
 
 }
