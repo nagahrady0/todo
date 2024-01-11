@@ -20,7 +20,7 @@ useEffect(()=>{
 	
 	}
 
-} );
+} , [] );
 
 
 const items = state.map((el , index)=> (
