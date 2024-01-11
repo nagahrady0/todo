@@ -1,0 +1,124 @@
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;
+}
+
+.container h1{
+
+color:#fff;
+text-align:center;
+text-transform:capitalize;
+margin-bottom:10px;
+
+}
+.form{
+width:700px;
+background:#343434;
+border-radius:10px;
+padding:10px 50px;
+box-shadow:1px 1px 5px rgba(0,0,0,.5s);
+
+}
+.custom{
+margin-bottom:10px;
+display:flex;
+}
+.input{
+display:flex;
+gap:10px;
+padding-bottom:20px;
+margin-bottom:40px;
+border-bottom:1px solid rgba(255 , 255 , 255 , .3);
+}
+#title{
+width:20%;
+border:none;
+height:40px;
+border:1px solid #00E67C;
+border-top-left-radius:5px;
+border-bottom-left-radius:5px;
+outline:none;
+text-indent:10px;
+}
+#description{
+width:60%;
+border:none;
+height:40px;
+border:1px solid #00E67C;
+outline:none;
+text-indent:10px;
+}
+
+button.add{
+height:40px;
+width:20%;
+
+border:none;
+border-top-right-radius:5px;
+border-bottom-right-radius:5px;
+padding:0 10px;
+color:#fff;
+cursor:pointer;
+text-transform:capitalize;
+background:#00E67C;
+}
+
+
+
+
+.data {
+width:100%;
+background:#404040;
+padding:10px 20px;
+border-radius:5px;
+display:flex;
+justify-content:space-between;
+}
+.info{
+width:80%;
+}
+.data .info p , .data .info h3{
+word-wrap:break-word;
+}
+.info h3{
+color:#00E67C;
+margin-bottom:10px;
+}
+.data .info p{
+color:#ccc;
+opacity:.8;
+font-size:14px;
+}
+.data .del-button{
+cursor:pointer;
+transition:color .4s;
+font-size:25px;
+color:#fff;
+align-self:center;
+}
+.data .del-button:hover{
+color:red;
+}
+
+
+
+
+
+
+
+.clear{
+
+width:100%;
+height:40px;
+background:red;
+border:none;
+border-radius:5px;
+color:#fff;
+cursor:pointer;
+text-transform:capitalize;
+
+
+}
+
+
